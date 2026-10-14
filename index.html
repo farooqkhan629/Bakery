@@ -73,414 +73,387 @@
         </button>
     </header>
 
-<!-- Hero Section -->
-<section class="hero-section">
-    <div class="hero-container">
-        <!-- Left Text Content -->
-        <div class="hero-text-content">
-            <div class="hero-subtitle">SWEET MOMENTS, ALWAYS</div>
-            <h1>Freshly Baked <br><span class="pink-highlight">Happiness</span></h1>
-            <div class="heart-divider"><i class="fa-solid fa-heart"></i></div>
-            <p>At Temptations Bakery, we turn simple ingredients into extraordinary treats. From classic cakes to freshly baked delights — every bite is a little moment of joy.</p>
-            <div class="hero-buttons">
-                <a href="#" class="explore-menu-btn">
-                    Explore Our Menu <i class="fa-solid fa-arrow-right" style="font-size: 13px;"></i>
-                </a>
-                <button class="watch-story-btn">
-                    <span class="play-icon"><i class="fa-solid fa-play"></i></span>
-                    Watch Our Story
-                </button>
-            </div>
-        </div>
+<section class="hx-hero" id="home">
+  <div class="hx-bg" id="hxBg"></div>
+  <div class="hx-shade"></div>
+  <div class="hx-fx" id="hxFx" aria-hidden="true"></div>
 
-        <!-- Right Image Content with Static Clean Typography -->
-        <div class="hero-image-content">
-            <div class="cake-blob-bg"></div>
-            
-            <!-- Static Clean Typography ("Life is Sweeter Here") -->
-            <div class="static-typography">
-                <span class="line-1">Life is</span>
-                <span class="sweeter-text">Sweeter Here 💖</span>
-            </div>
+  <div class="hx-in">
 
-            <img src="assets/images/cake.jpg" alt="Delicious Cake" class="main-cake-img">
-        </div>
+    <div class="hx-text">
+      <span class="hx-script">
+        <svg viewBox="0 0 24 24" class="hx-mini"><path d="M12 21s-8-5.2-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.8-8 11-8 11z"/></svg>
+        Life is Sweeter Here
+        <svg viewBox="0 0 24 24" class="hx-mini"><path d="M12 21s-8-5.2-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.8-8 11-8 11z"/></svg>
+      </span>
+
+      <h1>
+        <span class="hx-l1">Freshly Baked</span>
+        <span class="hx-l2">
+          Happiness
+          <svg class="hx-swash" viewBox="0 0 400 24" preserveAspectRatio="none"><path d="M6 14C80 4 160 20 240 12s120-8 154-2"/></svg>
+          <svg class="hx-heart" viewBox="0 0 50 50"><path d="M25 44S4 31 4 17a11 11 0 0 1 21-4 11 11 0 0 1 21 4c0 14-21 27-21 27z"/></svg>
+        </span>
+      </h1>
+
+      <p>At Temptations Bakery, we turn simple ingredients into extraordinary treats. From classic cakes to freshly baked delights — every bite is a little moment of joy.</p>
+
+      <div class="hx-btns">
+        <a href="#menu" class="hx-btn">Explore Our Menu
+          <svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#about" class="hx-story">
+          <span class="hx-play"><svg viewBox="0 0 24 24"><path d="M8 5l11 7-11 7z"/></svg></span>
+          Watch Our Story
+        </a>
+      </div>
     </div>
+
+    <div class="hx-note" aria-hidden="true">
+      Sweet<br>Moments<br>Together
+      <svg viewBox="0 0 60 60"><path d="M28 6c20 4 26 24 10 46M42 48l-6 6 9 1" /></svg>
+      <svg class="hx-nh" viewBox="0 0 50 50"><path d="M25 44S4 31 4 17a11 11 0 0 1 21-4 11 11 0 0 1 21 4c0 14-21 27-21 27z"/></svg>
+    </div>
+  </div>
+
+  <div class="hx-feats">
+    <div class="hx-feat">
+      <span class="hx-ic ic-pink"><svg viewBox="0 0 24 24"><path d="M5 12h14l-2 8H7z"/><path d="M7 12a5 5 0 0 1 10 0"/><path d="M12 5V3.5"/></svg></span>
+      <b>Freshly Baked<br>Daily</b>
+    </div>
+    <div class="hx-feat">
+      <span class="hx-ic ic-yellow"><svg viewBox="0 0 24 24"><path d="M5 19C5 9 11 5 19 5c0 8-4 14-14 14z"/><path d="M5 19l8-8"/></svg></span>
+      <b>Premium<br>Ingredients</b>
+    </div>
+    <div class="hx-feat">
+      <span class="hx-ic ic-teal"><svg viewBox="0 0 24 24" class="solid"><path d="M12 21s-8-5.2-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.8-8 11-8 11z"/></svg></span>
+      <b>Made with<br>Love</b>
+    </div>
+    <div class="hx-feat">
+      <span class="hx-ic ic-pink"><svg viewBox="0 0 24 24"><path d="M2 6h11v10H2zM13 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span>
+      <b>Fast &amp; Reliable<br>Delivery</b>
+    </div>
+  </div>
 </section>
 
 <section class="cat-sec" id="menu">
+  <div class="cat-head">
+    <span class="cat-eyebrow"><i></i>OUR CATEGORIES<i></i></span>
+    <h2>Find Your Favourite</h2>
+  </div>
+
   <div class="cat-grid">
 
     <a href="#menu" class="cat-card">
-      <div class="cat-pic">
-        <i class="cat-blob"></i>
-        <span class="cat-emo">🧁</span>
-        <img src="cupcakes.png" alt="Cupcakes" onload="this.previousElementSibling.style.display='none'" onerror="this.style.display='none'">
+      <div class="cat-photo">
+        <img src="assets/images/cupcakes.jpg" alt="Cupcakes" loading="lazy" onerror="this.style.display='none'">
       </div>
-      <h3>Cupcakes</h3>
-      <p>Little slices of joy</p>
-      <span class="cat-go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <div class="cat-info">
+        <h3>Cupcakes</h3>
+        <p>Little slices of joy</p>
+        <span class="cat-go">Explore <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
     </a>
 
     <a href="#cakes" class="cat-card">
-      <div class="cat-pic">
-        <i class="cat-blob"></i>
-        <span class="cat-emo">🍰</span>
-        <img src="cakes.png" alt="Cakes" onload="this.previousElementSibling.style.display='none'" onerror="this.style.display='none'">
+      <div class="cat-photo">
+        <img src="assets/images/cakesss.jpg" alt="Cakes" loading="lazy" onerror="this.style.display='none'">
       </div>
-      <h3>Cakes</h3>
-      <p>For every celebration</p>
-      <span class="cat-go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <div class="cat-info">
+        <h3>Cakes</h3>
+        <p>For every celebration</p>
+        <span class="cat-go">Explore <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
     </a>
 
     <a href="#menu" class="cat-card">
-      <div class="cat-pic">
-        <i class="cat-blob"></i>
-        <span class="cat-emo">🥐</span>
-        <img src="pastries.png" alt="Pastries" onload="this.previousElementSibling.style.display='none'" onerror="this.style.display='none'">
+      <div class="cat-photo">
+        <img src="assets/images/pasteries.jpg" alt="Pastries" loading="lazy" onerror="this.style.display='none'">
       </div>
-      <h3>Pastries</h3>
-      <p>Fresh &amp; flaky</p>
-      <span class="cat-go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <div class="cat-info">
+        <h3>Pastries</h3>
+        <p>Fresh &amp; flaky</p>
+        <span class="cat-go">Explore <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
     </a>
 
     <a href="#menu" class="cat-card">
-      <div class="cat-pic">
-        <i class="cat-blob"></i>
-        <span class="cat-emo">🍪</span>
-        <img src="cookies.png" alt="Cookies" onload="this.previousElementSibling.style.display='none'" onerror="this.style.display='none'">
+      <div class="cat-photo">
+        <img src="assets/images/cookies.jpg" alt="Cookies" loading="lazy" onerror="this.style.display='none'">
       </div>
-      <h3>Cookies</h3>
-      <p>Irresistibly good</p>
-      <span class="cat-go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <div class="cat-info">
+        <h3>Cookies</h3>
+        <p>Irresistibly good</p>
+        <span class="cat-go">Explore <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
     </a>
 
     <a href="#menu" class="cat-card">
-      <div class="cat-pic">
-        <i class="cat-blob"></i>
-        <span class="cat-emo">🍫</span>
-        <img src="brownies.png" alt="Brownies" onload="this.previousElementSibling.style.display='none'" onerror="this.style.display='none'">
+      <div class="cat-photo">
+        <img src="assets/images/brownies.jpg" alt="Brownies" loading="lazy" onerror="this.style.display='none'">
       </div>
-      <h3>Brownies</h3>
-      <p>Rich &amp; chocolatey</p>
-      <span class="cat-go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <div class="cat-info">
+        <h3>Brownies</h3>
+        <p>Rich &amp; chocolatey</p>
+        <span class="cat-go">Explore <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
     </a>
 
     <a href="#menu" class="cat-card">
-      <div class="cat-pic">
-        <i class="cat-blob"></i>
-        <span class="cat-emo">🥤</span>
-        <img src="drinks.png" alt="Drinks" onload="this.previousElementSibling.style.display='none'" onerror="this.style.display='none'">
+      <div class="cat-photo">
+        <img src="assets/images/drinks.jpg" alt="Drinks" loading="lazy" onerror="this.style.display='none'">
       </div>
-      <h3>Drinks</h3>
-      <p>Cool &amp; refreshing</p>
-      <span class="cat-go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      <div class="cat-info">
+        <h3>Drinks</h3>
+        <p>Cool &amp; refreshing</p>
+        <span class="cat-go">Explore <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
     </a>
 
   </div>
 </section>
 
-<!-- Our Specialties Section -->
-<section class="specialties-section">
-    <div class="specialties-container">
-        <!-- Section Header -->
-        <div class="section-header">
-            <span class="sub-title">— OUR SPECIALTIES —</span>
-            <h2 class="main-title">A World of Sweet Delights</h2>
-        </div>
+<section class="pr-sec">
+  <div class="pr-grid">
 
-        <!-- 4 Images Grid Cards -->
-        <div class="specialties-grid">
-            <!-- Card 1 -->
-            <div class="specialty-card">
-                <div class="card-img-wrapper">
-                    <img src="assets/images/cakes.jpg" alt="Delicioso Cake">
-                    <span class="badge">Most Loved</span>
-                </div>
-            </div>
+    <!-- LEFT: Sweet Delights -->
+    <article class="pr-card pr-cream">
+      <div class="pr-text">
+        <h2>Sweet<br>Delights</h2>
+        <span class="pr-sub">FOR EVERY MOMENT</span>
+        <p>From classic cookies to decadent cakes, we have treats for every craving.</p>
+        <a href="#menu" class="pr-btn pr-btn-dark">Explore Menu</a>
+      </div>
+      <div class="pr-pic">
+        <i class="pr-glow"></i>
+        <img src="assets/images/bgcoockies.png" alt="Chocolate chip cookies" loading="lazy" onerror="this.style.display='none'">
+        <i class="pr-crumb c1"></i><i class="pr-crumb c2"></i><i class="pr-crumb c3"></i><i class="pr-crumb c4"></i>
+      </div>
+    </article>
 
-            <!-- Card 2 -->
-            <div class="specialty-card">
-                <div class="card-img-wrapper">
-                    <img src="assets/images/cupcakes.jpg" alt="Cupcakes Assortment">
-                </div>
-            </div>
+    <!-- RIGHT: Deal of the Day -->
+    <article class="pr-card pr-pink">
+      <div class="pr-text">
+        <h2 class="pr-deal">Deal <em>of</em> the Day</h2>
+        <div class="pr-off">20%<span>OFF</span></div>
+        <span class="pr-sub pr-sub-dark">On All Pastries</span>
+        <a href="https://wa.me/923001234567" target="_blank" rel="noopener" class="pr-btn pr-btn-pink">Grab the Deal</a>
+      </div>
+      <div class="pr-pic">
+        <i class="pr-glow"></i>
+        <img src="assets/images/bgbrownie.png" alt="Chocolate brownie" loading="lazy" onerror="this.style.display='none'">
+      </div>
+    </article>
 
-            <!-- Card 3 -->
-            <div class="specialty-card">
-                <div class="card-img-wrapper">
-                    <img src="assets/images/cookies.jpg" alt="Fresh Baked Cookies">
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="specialty-card">
-                <div class="card-img-wrapper">
-                    <img src="assets/images/pasteries.jpg" alt="Special Pastry">
-                    <span class="badge best-seller">Best</span>
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
 </section>
 
-<!-- Our Story & Special Offer Section -->
-<section class="story-offer-wrapper">
-    
-    <!-- Top Part: Our Story -->
-    <div class="our-story-section">
-        <div class="story-container">
-            
-            <!-- Left Side: Illustrated Bakery Composition -->
-            <div class="story-illustration-box">
-                <!-- Floating Decorative Accents -->
-                <span class="baked-love-tag">Baked with Love 💖</span>
-                
-                <!-- Main Illustration Canvas -->
-                <div class="illustration-canvas">
-                    <!-- Bakery Logo Badge -->
-                    <div class="story-logo-badge">
-                        <img src="assets/images/LOGO.jpg" alt="Temptations Bakery Logo">
-                    </div>
-                    
-                    <!-- Cupcakes & Bakery Items Group -->
-                    <div class="cupcakes-group">
-                        <img src="assets/images/donuts.jpg" class="illus-item item-main" alt="Delicious Cupcake">
-                        <img src="assets/images/cupcakes.jpg" class="illus-item item-secondary" alt="Fresh Baked Goods">
-                    </div>
-                </div>
-            </div>
+<section class="oc-sec" id="occasions">
+  <div class="oc-head">
+    <h2>Choose a Cake<br>by Occasion</h2>
+  </div>
 
-            <!-- Center Side: Typography & Story Text -->
-            <div class="story-content-box">
-                <span class="story-badge">Our Story 💌</span>
-                <h2 class="story-headline">
-                    A Little Sweetness.<br>
-                    <span class="pink-cursive">A Lot of Love.</span>
-                </h2>
-                <p class="story-paragraph">
-                    Temptations Bakery was born from a simple dream — to spread happiness, one bite at a time. We craft fresh, high-quality baked goods using the finest ingredients, because you deserve nothing but the best.
-                </p>
-                <a href="#" class="btn-story-learn">
-                    Learn More <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
+  <div class="oc-row">
 
-            <!-- Right Side: Feature List -->
-            <div class="story-features-list">
-                <div class="feature-card">
-                    <div class="feat-icon-bg"><i class="fa-solid fa-seedling"></i></div>
-                    <div class="feat-info">
-                        <h4>Premium Ingredients</h4>
-                        <p>Only the best, always.</p>
-                    </div>
-                </div>
+    <a href="#menu" class="oc-card">
+      <span class="oc-name">Bento</span>
+      <div class="oc-photo"><img src="assets/images/bento.jpg" alt="Bento cakes" loading="lazy" onerror="this.style.display='none'"></div>
+    </a>
 
-                <div class="feature-card">
-                    <div class="feat-icon-bg"><i class="fa-solid fa-heart"></i></div>
-                    <div class="feat-info">
-                        <h4>Made with Love</h4>
-                        <p>Because you matter.</p>
-                    </div>
-                </div>
+    <a href="#menu" class="oc-card">
+      <span class="oc-name">Kids</span>
+      <div class="oc-photo"><img src="assets/images/kids.jpg" alt="Kids cakes" loading="lazy" onerror="this.style.display='none'"></div>
+    </a>
 
-                <div class="feature-card">
-                    <div class="feat-icon-bg"><i class="fa-solid fa-bread-slice"></i></div>
-                    <div class="feat-info">
-                        <h4>Freshly Baked Daily</h4>
-                        <p>Straight from our kitchen.</p>
-                    </div>
-                </div>
+    <a href="#menu" class="oc-card">
+      <span class="oc-name">Birthday</span>
+      <div class="oc-photo"><img src="assets/images/bday.jpg" alt="Birthday cakes" loading="lazy" onerror="this.style.display='none'"></div>
+    </a>
 
-                <div class="feature-card">
-                    <div class="feat-icon-bg"><i class="fa-solid fa-truck-fast"></i></div>
-                    <div class="feat-info">
-                        <h4>Fast & Reliable Delivery</h4>
-                        <p>Sweetness at your doorstep.</p>
-                    </div>
-                </div>
-            </div>
+    <a href="#menu" class="oc-card">
+      <span class="oc-name">Wedding</span>
+      <div class="oc-photo"><img src="assets/images/wedding.jpg" alt="Wedding cakes" loading="lazy" onerror="this.style.display='none'"></div>
+    </a>
 
-        </div>
-    </div>
+    <a href="#menu" class="oc-card">
+      <span class="oc-name">Custom</span>
+      <div class="oc-photo"><img src="assets/images/oustom.jpg" alt="Custom cakes" loading="lazy" onerror="this.style.display='none'"></div>
+    </a>
 
-    <!-- Bottom Part: Teal Wavy Banner -->
-    <div class="special-offer-banner">
-        <!-- SVG Wavy Scallop Edge Top Border -->
-        <div class="scallop-top-border">
-            <svg viewBox="0 0 1200 18" preserveAspectRatio="none">
-                <path d="M0,0 Q15,18 30,0 T60,0 T90,0 T120,0 T150,0 T180,0 T210,0 T240,0 T270,0 T300,0 T330,0 T360,0 T390,0 T420,0 T450,0 T480,0 T510,0 T540,0 T570,0 T600,0 T630,0 T660,0 T690,0 T720,0 T750,0 T780,0 T810,0 T840,0 T870,0 T900,0 T930,0 T960,0 T990,0 T1020,0 T1050,0 T1080,0 T1110,0 T1140,0 T1170,0 T1200,0 V18 H0 Z" fill="#2ebfa5"></path>
-            </svg>
-        </div>
-
-        <div class="banner-inner-content">
-            <!-- Left Cupcakes Showcase -->
-            <div class="banner-left-img">
-                <img src="assets/images/ttcups.jpg" alt="Special Offer Cupcakes">
-            </div>
-
-            <!-- Center Call to Action -->
-            <div class="banner-center-text">
-                <span class="offer-pill">SPECIAL OFFER</span>
-                <h3>Get 15% OFF</h3>
-                <p>on your first order!</p>
-                <a href="#" class="btn-banner-shop">
-                    Shop Now <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-
-            <!-- Right Sweet Savings Badge -->
-            <div class="banner-right-badge">
-                <div class="sweet-stamp">
-                    <span>Sweet<br>Savings</span>
-                    <i class="fa-solid fa-heart"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-
+  </div>
 </section>
 
-<!-- Customer Reviews Section -->
-<section class="reviews-section">
-    <div class="reviews-container">
-        <!-- Section Header -->
-        <div class="section-header">
-            <span class="sub-title">— TESTIMONIALS —</span>
-            <h2 class="main-title">What Our Sweet Lovers Say</h2>
+
+<!-- TEMPTATIONS BAKERY | ZIGZAG CUPCAKE SECTION -->
+<section class="tb-zigzag-section" id="tb-cupcake-stories">
+
+  <div class="tb-zigzag-decoration tb-zigzag-decoration--one"></div>
+  <div class="tb-zigzag-decoration tb-zigzag-decoration--two"></div>
+
+  <div class="tb-zigzag-container">
+
+    <!-- ROW 01: IMAGE LEFT, CONTENT RIGHT -->
+    <article class="tb-zigzag-row tb-zigzag-row--image-left">
+
+      <div class="tb-zigzag-visual">
+        <div class="tb-zigzag-blob tb-zigzag-blob--pink"></div>
+        <span class="tb-zigzag-spark tb-zigzag-spark--one">✦</span>
+
+        <div class="tb-zigzag-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1000&q=85"
+            alt="Freshly baked cupcakes decorated with creamy frosting"
+            loading="lazy"
+          >
         </div>
 
-        <!-- Reviews Slider/Grid Wrapper -->
-        <div class="reviews-slider">
-            
-            <!-- Review Card 1 -->
-            <div class="review-card">
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p class="review-text">"Temptations Bakery ke cupcakes aur fresh cakes ne meri daughter ki birthday ko aur bhi special bana diya! Taste bilkul home-baked aur fresh tha."</p>
-                <div class="reviewer-info">
-                    <div class="reviewer-img">
-                        <img src="assets/images/1.jpg" alt="Ayesha Khan">
-                    </div>
-                    <div>
-                        <h4>Williams</h4>
-                        <span>Regular Customer</span>
-                    </div>
-                </div>
-            </div>
+        <span class="tb-zigzag-dot tb-zigzag-dot--one"></span>
+        <span class="tb-zigzag-dot tb-zigzag-dot--two"></span>
+      </div>
 
-            <!-- Review Card 2 -->
-            <div class="review-card">
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p class="review-text">"The pastries and cookies are amazingly soft and delicious. Fast delivery service ki wajah se cheezain bilkul fresh doorstep par mil gayin!"</p>
-                <div class="reviewer-info">
-                    <div class="reviewer-img">
-                        <img src="assets/images/2.jpg" alt="Bilal Ahmed">
-                    </div>
-                    <div>
-                        <h4>Jane morris</h4>
-                        <span>Food Blogger</span>
-                    </div>
-                </div>
-            </div>
+      <div class="tb-zigzag-content">
+        <span class="tb-zigzag-eyebrow">A LITTLE MOMENT OF JOY</span>
+        <h2>Little Cupcakes,<br><em>Big Happiness.</em></h2>
 
-            <!-- Review Card 3 -->
-            <div class="review-card">
-                <div class="review-stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <p class="review-text">"Best bakery in town! Inka chocolate brownie aur red velvet cake kaafi rich aur tasty hai. Highly recommend to everyone."</p>
-                <div class="reviewer-info">
-                    <div class="reviewer-img">
-                        <img src="assets/images/3.jpg" alt="Fatima Noor">
-                    </div>
-                    <div>
-                        <h4>James kino</h4>
-                        <span>Sweet Tooth</span>
-                    </div>
-                </div>
-            </div>
+        <p>
+          Small in size, unforgettable in taste. Our freshly baked
+          cupcakes combine soft, fluffy sponge with silky buttercream
+          and delightful toppings, creating a little moment of
+          happiness in every bite.
+        </p>
 
+        <a href="#tb-cupcake-menu" class="tb-zigzag-link">
+          Discover Our Cupcakes
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <span class="tb-zigzag-heart" aria-hidden="true">♡</span>
+      </div>
+
+    </article>
+
+
+    <!-- ROW 02: CONTENT LEFT, IMAGE RIGHT -->
+    <article class="tb-zigzag-row tb-zigzag-row--image-right">
+
+      <div class="tb-zigzag-visual">
+        <div class="tb-zigzag-blob tb-zigzag-blob--peach"></div>
+        <span class="tb-zigzag-spark tb-zigzag-spark--two">✦</span>
+
+        <div class="tb-zigzag-image-wrap">
+          <img
+            src="assets/images/cakesss.jpg"
+            alt="Beautifully decorated celebration cake and sweet treats"
+            loading="lazy"
+          >
         </div>
-    </div>
+
+        <span class="tb-zigzag-dot tb-zigzag-dot--three"></span>
+        <span class="tb-zigzag-dot tb-zigzag-dot--four"></span>
+      </div>
+
+      <div class="tb-zigzag-content">
+        <span class="tb-zigzag-eyebrow">MADE WITH EXTRA LOVE</span>
+        <h2>A Sweet Treat<br><em>Worth Sharing.</em></h2>
+
+        <p>
+          From cheerful celebrations to everyday cravings, our
+          handcrafted treats bring people together. Every batch is
+          prepared with carefully selected ingredients, beautiful
+          details and the homemade goodness you deserve.
+        </p>
+
+        <a href="#tb-cupcake-menu" class="tb-zigzag-link">
+          Explore Our Creations
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <span class="tb-zigzag-heart" aria-hidden="true">♡</span>
+      </div>
+
+    </article>
+
+
+    <!-- ROW 03: IMAGE LEFT, CONTENT RIGHT -->
+    <article class="tb-zigzag-row tb-zigzag-row--image-left">
+
+      <div class="tb-zigzag-visual">
+        <div class="tb-zigzag-blob tb-zigzag-blob--mint"></div>
+        <span class="tb-zigzag-spark tb-zigzag-spark--three">✦</span>
+
+        <div class="tb-zigzag-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&w=1000&q=85"
+            alt="Delicious bakery cupcakes ready to be enjoyed"
+            loading="lazy"
+          >
+        </div>
+
+        <span class="tb-zigzag-dot tb-zigzag-dot--five"></span>
+        <span class="tb-zigzag-dot tb-zigzag-dot--six"></span>
+      </div>
+
+      <div class="tb-zigzag-content">
+        <span class="tb-zigzag-eyebrow">YOUR HAPPY PLACE</span>
+        <h2>Freshly Baked,<br><em>Always Tempting.</em></h2>
+
+        <p>
+          There is something special about a freshly baked treat.
+          That first bite, the creamy frosting and the delicate
+          sweetness make ordinary days feel extraordinary.
+          Find your new favourite at Temptations Bakery.
+        </p>
+
+        <a href="#tb-cupcake-menu" class="tb-zigzag-link">
+          Find Your Favourite
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <span class="tb-zigzag-heart" aria-hidden="true">♡</span>
+      </div>
+
+    </article>
+
+  </div>
 </section>
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
-</body>
 
-<!-- High-End Footer Section (Pastel Theme) -->
-<footer class="footer-section">
-    <div class="footer-container">
+<!-- ================= SPECIAL OFFER LIGHT TEAL BANNER ================= -->
+<section class="tb-offer-banner-section">
+    <div class="tb-offer-container">
         
-        <!-- Column 1: Brand Info & Logo -->
-        <div class="footer-col brand-col">
-            <div class="footer-logo">
-                <img src="assets/images/LOGO.jpg" alt="Temptations Bakery Logo">
-                <h3>Temptations Bakery</h3>
+        <!-- Left Side: Original Colored Cupcakes -->
+        <div class="tb-offer-left-img">
+            <img src="assets/images/3cups.jpg" alt="Original Colored Cupcakes" class="tb-clean-cups-img">
+        </div>
+
+        <!-- Vertical Divider -->
+        <div class="tb-offer-divider"></div>
+
+        <!-- Center Text Content -->
+        <div class="tb-offer-center-content">
+            <span class="tb-offer-subhead">SPECIAL OFFER</span>
+            <h2 class="tb-offer-heading">Get 15% OFF</h2>
+            <p class="tb-offer-subtext">on your first order!</p>
+            <div class="tb-offer-line-decor"></div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="tb-offer-cta">
+            <a href="#" class="tb-offer-shop-btn">
+                Shop Now <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <!-- Vertical Divider -->
+        <div class="tb-offer-divider"></div>
+
+        <!-- Right Badge -->
+        <div class="tb-offer-right-badge">
+            <div class="tb-sweet-savings-oval">
+                <span>Sweet Savings</span>
+                <i class="fa-solid fa-heart"></i>
             </div>
-            <p class="footer-about">
-                Spreading happiness, one sweet bite at a time. We craft premium, hand-baked goods fresh daily with love and the finest ingredients.
-            </p>
-            <div class="footer-socials">
-                <a href="#" class="social-icon facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="social-icon tiktok"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="#" class="social-icon whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
-        </div>
-
-        <!-- Column 2: Quick Links -->
-        <div class="footer-col">
-            <h3>Quick Links</h3>
-            <ul class="footer-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Specialties</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-
-        <!-- Column 3: Working Hours -->
-        <div class="footer-col">
-            <h3>Opening Hours</h3>
-            <ul class="footer-hours">
-                <li><span>Monday - Friday:</span> 8:00 AM - 10:00 PM</li>
-                <li><span>Saturday:</span> 9:00 AM - 11:00 PM</li>
-                <li><span>Sunday:</span> 10:00 AM - 9:00 PM</li>
-            </ul>
-        </div>
-
-        <!-- Column 4: Newsletter -->
-        <div class="footer-col newsletter-col">
-            <h3>Get Sweet Updates</h3>
-            <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Enter your email" required>
-                <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
-            </form>
         </div>
 
     </div>
-
-    <!-- Bottom Copyright Bar -->
-    <div class="footer-bottom">
-        <p>&copy; 2026 Temptations Bakery. All rights reserved. Crafted with 💖 for sweet lovers.</p>
-    </div>
-</footer>
-</html>
+</section>
