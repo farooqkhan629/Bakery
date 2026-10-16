@@ -93,5 +93,71 @@
 })();
 
 
-/*CENTER CAKE */
+/*CENTER COOKIE IMG */
+document.addEventListener('DOMContentLoaded', () => {
+  const cookieImg = document.querySelector('.cookie-hero-main-img');
+  
+  if (cookieImg) {
+    window.addEventListener('mousemove', (e) => {
+      const { clientX, clientY } = e;
+      const moveX = (clientX - window.innerWidth / 2) * 0.012;
+      const moveY = (clientY - window.innerHeight / 2) * 0.012;
+      
+      cookieImg.style.transform = `translate(${moveX}px, ${moveY}px)`;
+    });
+  }
+});
 
+/*BR CK */
+document.addEventListener('DOMContentLoaded', () => {
+  const menuItems = document.querySelectorAll('.delights-section-menu-item');
+
+  menuItems.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      menuItems.forEach(i => {
+        i.classList.remove('delights-section-item-active');
+        const text = i.querySelector('.delights-section-item-text');
+        if (text) {
+          text.classList.remove('delights-section-text-bold');
+          text.classList.add('delights-section-text-faded');
+        }
+      });
+
+      item.classList.add('delights-section-item-active');
+      const activeText = item.querySelector('.delights-section-item-text');
+      if (activeText) {
+        activeText.classList.remove('delights-section-text-faded');
+        activeText.classList.add('delights-section-text-bold');
+      }
+    });
+  });
+});
+
+/*MAP */
+document.addEventListener('DOMContentLoaded', () => {
+  const mapImg = document.querySelector('.euro-history-map-img');
+  
+  if (mapImg) {
+    window.addEventListener('mousemove', (e) => {
+      const { clientX, clientY } = e;
+      const moveX = (clientX - window.innerWidth / 2) * 0.008;
+      const moveY = (clientY - window.innerHeight / 2) * 0.008;
+      
+      mapImg.style.transform = `translate(${moveX}px, ${moveY}px)`;
+    });
+  }
+});
+
+/*6 IMG */
+document.addEventListener('DOMContentLoaded', () => {
+  const tabs = document.querySelectorAll('.bakery-prod-tab');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('bakery-prod-tab-active'));
+      tab.classList.add('bakery-prod-tab-active');
+      
+      // Yahan aap category filtering logic add kar sakte hain agar items fetch karne hon
+    });
+  });
+});
